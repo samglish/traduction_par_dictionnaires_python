@@ -1,4 +1,5 @@
 import tkinter as tk
+from main import sms_translator
 from tkinter import ttk
 class App(tk.Frame):
     def __init__(self, master=None):
