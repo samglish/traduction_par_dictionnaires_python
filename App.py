@@ -22,4 +22,5 @@ ttk.Label(Frame, text="Wadjonautes translator", font=("Arial", 15),background="l
 ttk.Label(Frame, text="FR to FB",background="lightblue",padding=0).grid(column=0, row=1)
 
 ttk.Entry(Frame,show=True,background="white").grid(column=0, row=8)
+ttk.Button(Frame, text = 'Traduire').grid(column=0, row=19)
 myapp.mainloop()
