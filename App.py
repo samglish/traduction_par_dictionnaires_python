@@ -1,5 +1,4 @@
 import tkinter as tk
-from main import sms_translator
 from tkinter import ttk
 class App(tk.Frame):
     def __init__(self, master=None):
@@ -23,5 +22,7 @@ ttk.Label(Frame, text="Wadjonautes translator", font=("Arial", 15),background="l
 ttk.Label(Frame, text="FR to FB",background="lightblue",padding=0).grid(column=0, row=1)
 
 ttk.Entry(Frame,show=True,background="white").grid(column=0, row=8)
-ttk.Button(Frame, text = 'Traduire').grid(column=1, row=8)
+ttk.Button(Frame, text = 'Traduire').grid(column=0, row=14)
+
+
 myapp.mainloop()
