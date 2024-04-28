@@ -17,9 +17,12 @@ myLabel1=tk.Label(gui, text="FR to FB",background="lightblue")
 myLabel1.pack()
 myEntry = tk.Entry(gui, width=40)
 myEntry.pack(pady=20)
-
-btn = tk.Button(gui, height=1, width=10, text="Lire", command=Translate('salut'))
+reponse=tk.StringVar()
+reponse=Translate(myEntry.get)
+btn = tk.Button(gui, height=1, width=10, text="Traduire", command=Translate(reponse))
 btn.pack()
 
+Affiche=tk.Label(gui, textvariable=reponse,background="lightblue")
+Affiche.pack()
 
 gui.mainloop()
