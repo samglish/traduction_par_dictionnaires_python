@@ -20,8 +20,7 @@ myEntry = tk.Entry(gui, width=40)
 myEntry.pack(pady=20)
 
 reponse=tk.StringVar()
-reponse="resultats"
-
+reponse.set(myEntry.get())
 btn = tk.Button(gui, height=1, width=10, text="Traduire", command=Translate(reponse))
 btn.pack()
 Affiche=tk.Label(gui, text=reponse,relief=RAISED, width=10)
