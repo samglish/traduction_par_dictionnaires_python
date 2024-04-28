@@ -64,7 +64,7 @@ Affiche.pack(pady=20)
 
 gui.mainloop()
 ```
-<img src="sam.png" width="75%">
+<img src="sam.png" width="55%">
 
 ### Autre approche Fenetre
 
